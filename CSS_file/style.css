@@ -1,0 +1,127 @@
+#heading {
+	padding: 42px;
+
+	
+	/*-webkit-animation: myanimation 5s infinite;
+	animation: myanimation 5s infinite; */
+}
+
+/*@-webkit-keyframes 'myanimation' {
+	50% {
+		background-color: red; 
+	}
+}
+
+@keyframes 'myanimation' {
+	50% {
+		background-color: red; 
+	}
+}*/
+
+body {
+		background: url('img/lotr.jpg') no-repeat fixed;
+		}
+#page-title {
+	color: gold;
+	/*background-color: #e8e8e8;*/
+	font-family: Courier;
+	font-size: 2.5em;
+	/*padding: 30px;*/
+	letter-spacing: 10px;
+	/*border-style: double;
+	border-width: 10px;*/
+	width: 800px;
+	border-color: red;
+	position: sticky;
+
+	webkit-animation: myanimation 5s infinite;
+	animation: myanimation 5s infinite;
+		}
+		@-webkit-keyframes 'myanimation' {
+	50% {
+		color: black; 
+	}
+}
+
+@keyframes 'myanimation' {
+	50% {
+		color: black; 
+	}
+}
+.content {
+	
+	font-family: 'Yellowtail', cursive;
+	padding: 30px;
+	width: 400px;
+	color: white;
+	word-spacing: 3px;
+	letter-spacing: 3px;
+	/*border-style: dashed;
+	border-color: red;*/
+	text-align: center;
+	float: right;
+	
+	/*background-color: #e8e8e8;*/
+	/*border-left: 10px solid #ab3939;*/
+		}
+ul {
+	font-size: 2em;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Yellowtail', cursive;
+	width: 180px;
+	/*float: left;*/
+}
+.package {
+	-webkit-transition: background-color 200ms ease-out .5s;
+	-moz-transition: background-color 200ms ease-out .5s;
+	-o-transition: background-color 200ms ease-out .5s;
+	transition: background-color 200ms ease-out .5s;
+	background-color: #e8e8e8;
+	padding: 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-bottom: 10px solid green;
+	margin: 50px;
+	width: 200px;
+}
+.package:hover {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+#pricing-table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: gold;
+}
+a:hover {
+	color: brown;
+}
+a:active {
+	color: blue;
+}
+#blocks {
+position: absolute;
+}
+.block {
+height: 140px;
+width: 250px;
+background-color: red;
+margin: 20px;
+float: left;
+
+}
+
+
+
+
+

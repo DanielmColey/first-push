@@ -24,15 +24,15 @@ body {
 #page-title {
 	color: gold;
 	/*background-color: #e8e8e8;*/
-	font-family: Courier;
-	font-size: 2.5em;
+	font-family: 'Tangerine', cursive;
+	font-size: 6em;
 	/*padding: 30px;*/
 	letter-spacing: 10px;
 	/*border-style: double;
 	border-width: 10px;*/
-	width: 800px;
+	/*width: 1000px;*/
 	border-color: red;
-	position: sticky;
+	float: right;
 
 	webkit-animation: myanimation 5s infinite;
 	animation: myanimation 5s infinite;
@@ -98,7 +98,7 @@ ul {
 	align-items: center;
 }
 a:link {
-	color: white;
+	color: gold;
 }
 a:visited {
 	color: gold;
@@ -107,7 +107,7 @@ a:hover {
 	color: brown;
 }
 a:active {
-	color: blue;
+	color: brown;
 }
 #blocks {
 position: absolute;
@@ -118,10 +118,29 @@ width: 250px;
 background-color: red;
 margin: 20px;
 float: left;
-
 }
-
-
-
+/*#the_books {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.book {
+	-webkit-transition: background-color 200ms ease-out .5s;
+	-moz-transition: background-color 200ms ease-out .5s;
+	-o-transition: background-color 200ms ease-out .5s;
+	transition: background-color 200ms ease-out .5s;
+	background-color: #e8e8e8;
+	padding: 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-bottom: 10px solid green;
+	margin: 50px;
+	width: 200px;
+}*/
+* {
+	
+}
 
 

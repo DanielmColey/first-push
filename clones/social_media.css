@@ -1,0 +1,181 @@
+header {
+	height: 80px;
+	width: 100%;
+	border-bottom: 4px solid #0ea7af;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: right;
+}
+
+header img {
+	height: 60px;
+	width: 55px;
+	padding-left: 100px;
+	padding-right: 5px;
+}
+
+header a {
+	text-decoration: none;
+	color: #0ea7af;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+header p {
+	padding-top: 18px;
+	font-family: sans-serif;
+	color: #595d63;
+	font-size: 13px;
+}
+
+#logo {
+	width: 200px;
+	height: 30px;
+	padding-right: 70px;
+}
+
+input {
+	height: 30px;
+	width: 250px;
+	border-radius: 50px;
+}
+
+#search_box {
+	font-size: 15px;
+	border: 1px solid #e3e4e5;
+	margin-top: 20px;
+}
+
+.content_right {
+	width: 32%;
+	float: right;
+	border-left: 1px dashed #e3e4e5;
+}
+
+.content_right ul {
+	list-style: none;
+}
+
+.content_right li {
+	padding: 10px;
+}
+
+.content_right a {
+	text-decoration: none;
+	color: #989da5;
+}
+
+.content_right a:hover {
+	color: #595d63;
+}
+
+.content_center {
+	width: 52%;
+	float: right;
+}
+
+.content_left {
+	width: 15%;
+	height: 100%;
+}
+
+#button {
+	height: 35px;
+	width: 150px;
+	background-color: black;
+}
+
+#button p {
+	text-align: center;
+	padding-top: 8px;
+	text-decoration: none;
+	color: white;
+}
+
+#button a {
+	text-decoration: none;
+	color: white;
+}
+
+.sub_heading {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: right;
+	padding-top: 50px;
+	height: 100px;
+}
+
+#links  {
+	text-decoration: none;
+	padding-left: 95px;
+	width: 380px;
+}
+
+#links a {
+	margin-right: 10px;
+	border-bottom: 1px dashed #e3e4e5;
+	font-size: 14px;
+	padding-bottom: 15px;
+	text-decoration: none;
+}
+
+#links a:hover {
+	color: green;
+}
+
+.beef {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: right;
+}
+
+.beef div {
+	height: 250px;
+	width: 230px;
+}
+
+img {
+	height: 250px;
+	width: 270px;
+	padding: 19px;
+}
+
+#img1 {
+	width: 330px;
+} 
+
+.beef h1 {
+	color: #0ea7af;
+	text-decoration: underline;
+}
+
+.beef h5 {
+	font-family: sans-serif;
+}
+
+#snippet a p {
+	height: 20px;
+	width: 110px;
+	border: 1px solid #e3e4e5;
+	text-align: center;
+}
+
+#snippet a {
+	text-decoration: none;
+	color: #595d63;
+}
+
+
+
+
+
+
+
+
+
+
+
+
